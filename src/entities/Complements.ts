@@ -3,7 +3,7 @@ import { v4 as uuid, v4 } from "uuid";
 import { Tag } from "./Tag";
 import { User } from "./User";
 
-@Entity('compliment')
+@Entity('compliments')
 class Compliment {
 
   @PrimaryColumn()
